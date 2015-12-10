@@ -7,7 +7,7 @@ import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.widget.LinearLayout;
 
-import com.togather.me.togather.R;
+import com.togather.me.R;
 import com.togather.me.util.LogUtils;
 import com.togather.me.util.PrefUtils;
 

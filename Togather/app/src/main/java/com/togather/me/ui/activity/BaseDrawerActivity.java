@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 
 import com.togather.me.service.HttpResult;
-import com.togather.me.togather.R;
+import com.togather.me.R;
 import com.togather.me.ui.fragment.DrawerFragment;
 import com.togather.me.util.LogUtils;
 

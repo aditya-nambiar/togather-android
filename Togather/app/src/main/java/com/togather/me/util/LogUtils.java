@@ -3,7 +3,7 @@ package com.togather.me.util;
 
 import android.util.Log;
 
-import com.togather.me.togather.BuildConfig;
+import com.togather.me.BuildConfig;
 
 
 public class LogUtils {

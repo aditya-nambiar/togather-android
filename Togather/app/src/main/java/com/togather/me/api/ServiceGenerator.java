@@ -4,7 +4,7 @@ import android.content.Context;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.togather.me.togather.BuildConfig;
+import com.togather.me.BuildConfig;
 import com.togather.me.util.LogUtils;
 import com.togather.me.util.PrefUtils;
 

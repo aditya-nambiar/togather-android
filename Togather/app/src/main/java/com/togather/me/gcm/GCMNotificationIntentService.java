@@ -9,7 +9,7 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.gms.gcm.GoogleCloudMessaging;
-import com.togather.me.togather.R;
+import com.togather.me.R;
 import com.togather.me.util.LogUtils;
 import com.togather.me.util.UIUtils;
 

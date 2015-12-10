@@ -32,7 +32,7 @@ import com.togather.me.service.BaseHttpService;
 import com.togather.me.service.CustomRequest;
 import com.togather.me.service.HttpResult;
 import com.togather.me.service.HttpResultListener;
-import com.togather.me.togather.R;
+import com.togather.me.R;
 import com.togather.me.ui.view.CustomAnimationProgressDialog;
 import com.togather.me.util.Constants;
 import com.togather.me.util.LogUtils;

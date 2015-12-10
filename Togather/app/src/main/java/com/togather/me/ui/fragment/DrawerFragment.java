@@ -15,7 +15,7 @@ import android.widget.TextView;
 import com.google.android.gms.analytics.HitBuilders;
 import com.google.android.gms.analytics.Tracker;
 import com.togather.me.model.GsonModels;
-import com.togather.me.togather.R;
+import com.togather.me.R;
 import com.togather.me.ui.view.DrawerMainSectionView;
 import com.togather.me.util.LogUtils;
 import com.togather.me.util.PrefUtils;

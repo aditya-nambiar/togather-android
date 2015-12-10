@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.togather.me.util.LogUtils;
-import com.togather.me.togather.R;
+import com.togather.me.R;
 
 /**
  * Created by mouli on 8/24/15.
