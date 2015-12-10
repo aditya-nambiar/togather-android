@@ -1,4 +1,88 @@
 <resources>
     <string name="app_name">Togather</string>
     <string name="title_activity_maps">Map</string>
+    
+    <array name="gender">
+        <item>Mr.</item>
+        <item>Ms.</item>
+    </array>
+    
+    <string name="empty_string">""</string>
+    <string name="rupee">\u20b9</string>
+    
+    <string name="otp_template">Your Cityflo verification OTP is </string>
+    
+    <string name="register">Register</string>
+    <string name="hint_referral_code">Referral Code (Optional)</string>
+    
+    <string name="sign_in">Sign In</string>
+    <string name="suggest_route">Suggest route</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="review">Review</string>
+    
+    <string name="prefix_ride_cost">\u20B9</string>
+    
+    <string name="current_routes">"Current Routes</string>
+    <string name="error_msg_select_two_stops">Please select two stops</string>
+    <string name="error_msg_enter_phone_number">Please enter phone number</string>
+    <string name="error_msg_enter_password">Please enter password</string>
+    <string name="error_msg_required_field">Required field</string>
+    <string name="error_msg_unauthorised">Unauthorised</string>
+    <string name="error_msg_wrong_credentials">Wrong credentials</string>
+    <string name="error_msg_more_than_10">Enter amount more than Rs. 10</string>
+    <string name="error_msg_select_money">Please select amount</string>
+    <string name="error_msg_invalid_otp">OTP is not valid</string>
+    <string name="error_msg_no_booked_ride">No ride is booked currently</string>
+    <string name="error_msg_no_internet_connection">No internet connection</string>
+    <string name="error_msg_ride_is_active">You cannot book another one as a ride is active!</string>
+    <string name="error_msg_parsing_error">Parsing error</string>
+    <string name="error_msg_unknown_error">Unknown error</string>
+    <string name="error_msg_no_rides_currently">No rides on this route are available at this time</string>
+    <string name="error_msg_no_running_routes_currently">No running routes are available at this time</string>
+    <string name="error_msg_invalid_promo_code">Invalid promo code</string>
+    
+    <string name="success_msg_submit_feedback">Thanks for your feedback!</string>
+    <string name="success_msg_suggest_route">Thanks for suggesting the route!</string>
+    
+    <string name="coming_soon">Coming soon</string>
+    <string name="title_otp"><u>Verification</u></string>
+    <string name="body_otp">Waiting to detect an SMS sent to</string>
+    <string name="title_activity_suggest_route">Suggest Route</string>
+    <string name="title_activity_feedback">Feedback</string>
+    <string name="title_activity_faq">FAQ</string>
+    
+    <string name="suggest_route_title">Help us serve you better!</string>
+    <string name="suggest_route_description">Can\'t find your route? Suggest it to us and we\'ll have you moving shortly!</string>
+    <string name="suggest_route_text">Want us to add more routes?</string>
+    
+    <string name="feedback_title">How did you like our service?</string>
+    <string name="additional_comment">Additional Comment</string>
+    <string name="bad_feedback">What went wrong?</string>
+    <string name="contact_us">For further help, you can call us on 8828117899</string>
+    
+    <string name="route_home">Enter home location</string>
+    <string name="route_work">Enter work location</string>
+    
+    <string name="action_suggest">Suggest</string>
+    <string name="action_feedback">Submit Feedback</string>
+    <string name="forgot_pass_title">Forgot Password</string>
+    <string name="forgot_pass_body">Please Enter Your Mobile Number</string>
+    
+    <string name="toggle_turn_on">Turn_ON</string>
+    <string name="toggle_turn_off">Turn_OFF</string>
+    
+
+    
+    
+    <string name="sms_permission_explanation">Grant us this
+        permission for auto-filling the OTP.</string>
+    
+    <string name="sms_permission_denied">Permission denied. Manually
+        OTP filling required.</string>
+    
+    <string name="title_activity_search_place">Search</string>
+    <string name="home_location">Home Address</string>
+    <string name="work_location">Work Address</string>
+    <string name="pick_location">Select location</string>
 </resources>

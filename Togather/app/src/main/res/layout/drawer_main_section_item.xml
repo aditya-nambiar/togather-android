@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/ll_main_section_item_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="?selectableItemBackground"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/padding_regular"
+    android:paddingTop="@dimen/padding_regular"
+    tools:ignore="UseCompoundDrawables">
+
+    <ImageView
+        android:id="@+id/iv_main_section_icon"
+        android:layout_width="@dimen/icon_tiny"
+        android:layout_height="@dimen/icon_tiny"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:contentDescription="@null"
+        android:scaleType="fitCenter"
+        tools:ignore="RtlHardcoded"
+        tools:src="@drawable/ic_restore_black_24dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tv_main_section_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/tv_balance_value"
+            android:textColor="#333"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:ignore="RtlHardcoded"
+            tools:text="My Cart"/>
+
+        <TextView
+            android:id="@+id/tv_balance_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="#333"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:ignore="RtlHardcoded"
+            tools:text="500"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

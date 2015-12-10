@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DrawerMainSectionView">
+        <attr name="icon_src" format="integer"/>
+        <attr name="section_name" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="RouteItemView">
+        <attr name="is_child_visible" format="boolean"/>
+    </declare-styleable>
+</resources>

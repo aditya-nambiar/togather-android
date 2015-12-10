@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+
+    <string-array name="drawer_main_section_names">
+        <item>Main Section 1</item>
+        <item>Main Section 2</item>
+    </string-array>
+
+    <array name="drawer_main_section_icon_unselected">
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+    </array>
+
+    <array name="drawer_main_section_icon_selected">
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+    </array>
+
+    <string-array name="drawer_gen_section_names">
+        <item>Gen Section 1</item>
+        <item>Gen Section 2</item>
+    </string-array>
+</resources>
