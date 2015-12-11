@@ -85,4 +85,6 @@
     <string name="home_location">Home Address</string>
     <string name="work_location">Work Address</string>
     <string name="pick_location">Select location</string>
+    <string name="facebook_app_id">1687868028137619</string>
+
 </resources>
