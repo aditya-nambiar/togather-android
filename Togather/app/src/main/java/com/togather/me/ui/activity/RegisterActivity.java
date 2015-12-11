@@ -3,6 +3,7 @@ package com.togather.me.ui.activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
 import com.facebook.CallbackManager;
@@ -16,7 +17,7 @@ import com.togather.me.R;
 /**
  * Created by aditya on 12/11/15.
  */
-public class RegisterActivity extends BaseActivity {
+public class RegisterActivity extends AppCompatActivity {
 
     private TextView info;
     private LoginButton loginButton;
