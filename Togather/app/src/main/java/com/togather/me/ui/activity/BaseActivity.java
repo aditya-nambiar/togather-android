@@ -21,10 +21,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.google.android.gms.analytics.GoogleAnalytics;
-import com.google.android.gms.analytics.HitBuilders;
-import com.google.android.gms.analytics.Tracker;
 import com.google.gson.JsonElement;
+import com.togather.me.R;
 import com.togather.me.api.CustomErrorHandler;
 import com.togather.me.api.QueryResolver;
 import com.togather.me.model.GsonModels;
@@ -32,7 +30,6 @@ import com.togather.me.service.BaseHttpService;
 import com.togather.me.service.CustomRequest;
 import com.togather.me.service.HttpResult;
 import com.togather.me.service.HttpResultListener;
-import com.togather.me.R;
 import com.togather.me.ui.view.CustomAnimationProgressDialog;
 import com.togather.me.util.Constants;
 import com.togather.me.util.LogUtils;
@@ -54,7 +51,7 @@ public class BaseActivity extends AppCompatActivity implements ServiceConnection
     protected DrawerLayout mDrawerLayout;
     protected Toolbar mToolbar;
     protected boolean mShouldShowBackButton;
-    protected Tracker mTracker;
+    //protected Tracker mTracker;
     protected CustomAnimationProgressDialog mProgressDialog;
     protected boolean mUserLearnedDrawer;
     protected ActionBarDrawerToggle mDrawerToggle;
@@ -129,9 +126,9 @@ public class BaseActivity extends AppCompatActivity implements ServiceConnection
         super.onPostCreate(savedInstanceState);
       //  CityfloCustomerApplication application = (CityfloCustomerApplication) getApplication();
       //  mTracker = application.getDefaultTracker();
-        mTracker.setScreenName(this.getLocalClassName());
-        mTracker.send(new HitBuilders.ScreenViewBuilder().build());
-        GoogleAnalytics.getInstance(getBaseContext()).dispatchLocalHits();
+      //  mTracker.setScreenName(this.getLocalClassName());
+      //  mTracker.send(new HitBuilders.ScreenViewBuilder().build());
+      //  GoogleAnalytics.getInstance(getBaseContext()).dispatchLocalHits();
         mProgressDialog = CustomAnimationProgressDialog.newInstance(this);
 
         mShouldShowBackButton =
@@ -144,7 +141,7 @@ public class BaseActivity extends AppCompatActivity implements ServiceConnection
         bindService(serviceIntent, mConnection, Context.BIND_AUTO_CREATE);
 
         SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(this);
-        mUserLearnedDrawer = sp.getBoolean(PrefUtils.PREF_KEY_USER_LEARNED_DRAWER, false);
+       // mUserLearnedDrawer = sp.getBoolean(PrefUtils.PREF_KEY_USER_LEARNED_DRAWER, false);
 
         /*The order is IMPORTANT. first setUpToolbar() and then setDrawerFragment()*/
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
